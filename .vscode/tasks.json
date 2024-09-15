@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++",  // Change this to the correct path for g++
+            "args": [
+                "-g",  // Enable debugging information
+                "${file}",  // The file to compile
+                "-o",  // Output option
+                "${fileDirname}/${fileBasenameNoExtension}"  // Output to the same directory as source file
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true  // This will be the default build task
+            },
+            "problemMatcher": ["$gcc"],  // Parse errors and warnings using the GCC problem matcher
+            "detail": "Task to compile a C++ file using g++."
+        }
+    ]
+}
