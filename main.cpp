@@ -3,7 +3,9 @@ using namespace std;
 
 int main() {
     int score;
+    char another;
 
+    do{
     // Prompt the user for a score
     cout << "Enter the score: ";
     cin >> score;
@@ -14,6 +16,14 @@ int main() {
     } else {
         cout << "Fail\n";
     }
+
+    cout<<"y/n repeat";
+    cin>>another;
+
+    }
+
+    while(another == "y" || another == "Y" || another == "Yes" || another == "yes" || another == "YES");
+           
 
     return 0;
 }
