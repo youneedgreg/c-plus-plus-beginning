@@ -2,23 +2,18 @@
 using namespace std;
 
 int main() {
-    // Display your name
-    cout << "Greg\n";
+    int score;
 
-    // Declare variables for base and height of the triangle
-    float base, height;
+    // Prompt the user for a score
+    cout << "Enter the score: ";
+    cin >> score;
 
-    // Ask user to input the base and height
-    cout << "Enter the base of the triangle: ";
-    cin >> base;
-    cout << "Enter the height of the triangle: ";
-    cin >> height;
-
-    // Calculate the area of the triangle
-    float area = 0.5 * base * height;
-
-    // Display the area
-    cout << "The area of the triangle is: " << area << endl;
+    // Check if the score is a pass or fail
+    if (score >= 50) {
+        cout << "Pass\n";
+    } else {
+        cout << "Fail\n";
+    }
 
     return 0;
 }
