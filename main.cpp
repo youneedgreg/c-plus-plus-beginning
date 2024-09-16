@@ -22,7 +22,7 @@ int main() {
 
     }
 
-    while(another == 'y' || another == 'Y' || another == 'Yes' || another == 'yes' || another == 'YES');
+    while(another == 'y' || another == 'Y' );
            
 
     return 0;
