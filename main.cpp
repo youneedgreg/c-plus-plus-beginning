@@ -12,7 +12,7 @@ int main() {
 
     // Check if the score is a pass or fail
     if (score >= 50) {
-        cout << "Pass\n";
+        cout << "Pas\n";
     } else {
         cout << "Fail\n";
     }
