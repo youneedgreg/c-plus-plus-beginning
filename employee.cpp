@@ -27,4 +27,3 @@ emp1.empDisplay();
 emp2.empDisplay();
 
 return 0;
-} //end main()
