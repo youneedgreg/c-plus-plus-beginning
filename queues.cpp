@@ -25,7 +25,7 @@ int remove() //take item from front of queue
 int itemremoved = myQueue[front++]; //get value and incr front
 if(front > 9) //deal with wraparound
 front = 0;
-N- -;
+N--;
 return itemremoved;
 }
 int peekFront() //peek at front of queue
