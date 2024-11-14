@@ -8,7 +8,7 @@ class Queue{
 
     public:
     Queue(){
-        front = 0
+        front = 0;
         rear = 0;
         N = 0;
         }
